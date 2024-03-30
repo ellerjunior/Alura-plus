@@ -16,3 +16,22 @@ body {
     color: var(--color--text);
 }
 
+.principal {
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container__botao {
+    background-color: var(--color--button);
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 1em;
+    color: var(--color--text);
+    display: block;
+    
+}
