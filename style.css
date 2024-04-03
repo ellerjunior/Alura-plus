@@ -60,10 +60,40 @@ body {
     color: var(--color--secondaryText);
 }
 
-.container__imagem {
+.container__imagen {
     margin: 1em 0 2em 0;
 }
 
 .container__caixa {
     margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color--text);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    font-size: 16px;
+    color: var(--color--secondaryText);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descrição {
+    padding: 2em;
 }
