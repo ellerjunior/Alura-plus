@@ -5,6 +5,7 @@
     --color--background: #00030c;
     --color--button: #167bf7;
     --font--primary: "inter";
+    --color--button-efeito: #3c92fa;
 }
 
 * {
@@ -129,7 +130,7 @@ body {
     justify-content: center;
     list-style-type: none;
     padding: 3.125em 0em 1.875em 0em;
-    gap: 1.25em;
+    gap: 2em;
 }
 
 .lista__link {
@@ -141,4 +142,19 @@ body {
     color: var(--color--secondaryText);
     margin: 1.7857em;
     font-size: 14px;
+}
+
+.lista__link:hover {
+    color: var(--color--button);
+    transition: 0.6s;
+}
+
+.lista__link:active {
+    color: var(--color--highlightText);
+}
+
+.container__botao:hover {
+    background-color: var(--color--button-efeito);
+    color: var(--color--background);
+    transition: 0.6s; 
 }
